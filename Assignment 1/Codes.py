@@ -8,7 +8,7 @@ print ("Average of the three numbers is= ", (x[0] + x[1] + x[2])/3)
 #-------------------------------------------------------------------------------------------------------
 
 #Question 2
-Gross_Income = int(input("Enter the Gross Income :"))
+Gross_Income = float(input("Enter the Gross Income :"))
 dependents = int(input("Enter the number of Dependents :"))
 
 taxable_income = Gross_Income-10000 - (3000*dependents)
