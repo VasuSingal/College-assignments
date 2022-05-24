@@ -9,7 +9,13 @@ print(main_string[10:26])                                            #C
 
 print(main_string.replace("a case sensitive", "object oriented"))    #D
 
-print(main_string.find("a"))                                         #E
+c=0                                                                  #E
+for c in range(len(main_string)):
+    if main_string[c]=="a":
+        print(c)
+        c+=1
+    else:
+        c+=1                                         
 
 print(main_string.replace(" ",""))                                   #F
 
