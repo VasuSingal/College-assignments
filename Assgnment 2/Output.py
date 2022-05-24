@@ -4,6 +4,9 @@ egaugnal evitisnes esac a si nohtyP
 a case sensitive
 Python is object oriented language
 10
+13
+28
+32
 Pythonisacasesensitivelanguage
 
 #-------------------------------------------------------------------------------------------------------------
