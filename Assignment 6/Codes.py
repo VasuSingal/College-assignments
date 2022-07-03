@@ -17,7 +17,7 @@ if sum == n:
 else:
     print(n,"is not a Perfect Number")
     
-    
+#------------------------------------------------------------------------------------------------------------------------
     
 #Question 2
 s1 = input("Enter the word:")
@@ -30,7 +30,7 @@ if s2 == reverse_s2:
 else:
     print(s1,"is not a Palindrome.")
     
-    
+#------------------------------------------------------------------------------------------------------------------------
     
 #Question 3
 from math import factorial
@@ -46,7 +46,7 @@ for i in range(n):
         
     print()
     
-    
+#------------------------------------------------------------------------------------------------------------------------
     
 #Question 4
 s1 = input("Enter the sentence/word:")
@@ -65,7 +65,7 @@ if len(l1)==26:
 else:
     print(s1,"is not a Pangram.")
     
-    
+#------------------------------------------------------------------------------------------------------------------------
     
 #Question 5
 s1 = input("Enter the words in a hyphen-separated sequence:")
@@ -74,7 +74,7 @@ l1 = list(s1.split("-"))
 l1.sort()
 print("-".join(l1))
 
-
+#------------------------------------------------------------------------------------------------------------------------
 
 #Question 6
 def student_data(student_id, **kwargs):
@@ -91,7 +91,7 @@ student_data(student_id='21106035', student_name='Aaditya')
 
 student_data(student_id='21107032', student_name='Kashish', student_class ='XI')
 
-
+#------------------------------------------------------------------------------------------------------------------------
 
 #Question 7
 class Student:
@@ -109,7 +109,7 @@ print(issubclass(Student, object))
 print(issubclass(Marks, object))
 print()
 
-
+#------------------------------------------------------------------------------------------------------------------------
 
 #Question 8
 def findTriplets(arr, n):
@@ -134,7 +134,7 @@ for i in range(0, n):
 	lst.append(ele) 
 print(findTriplets(lst,n))                
 
-
+#------------------------------------------------------------------------------------------------------------------------
 
 #Question 9
 class parantheses:
